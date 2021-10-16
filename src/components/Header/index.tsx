@@ -58,7 +58,7 @@ export default function Header(): JSX.Element {
                                                 Stake
                                             </NavLink>
                                         )}
-                                        {chainId === ChainId.MAINNET && (
+                                        {/*{chainId === ChainId.MAINNET && (
                                             <NavLink id={`vesting-nav-link`} to={'/vesting'}>
                                                 Vesting
                                             </NavLink>
@@ -67,11 +67,11 @@ export default function Header(): JSX.Element {
                                             <NavLink id={`bento-nav-link`} to={'/bento'}>
                                                 Apps
                                             </NavLink>
-                                        )}
+                                        )}*/}
                                         {chainId && (
                                             <ExternalLink
                                                 id={`analytics-nav-link`}
-                                                href={'https://analytics.sushi.com'}
+                                                href={'https://info.horus.exchange'}
                                             >
                                                 Analytics
                                             </ExternalLink>

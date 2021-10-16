@@ -7,28 +7,18 @@ import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 const solutions = [
     {
         name: 'Docs',
-        description: 'Documentation for users of Sushi.',
-        href: 'https://docs.sushi.com'
-    },
-    {
-        name: 'Dev',
-        description: 'Documentation for developers of Sushi.',
-        href: 'https://dev.sushi.com'
+        description: 'Documentation for users of Horus.',
+        href: 'https://docs.horus.exchange'
     },
     {
         name: 'Open Source',
-        description: 'Sushi is a supporter of Open Source.',
-        href: 'https://github.com/sushiswap'
-    },
-    {
-        name: 'Tools',
-        description: 'Tools to optimize your workflow.',
-        href: '/tools'
+        description: 'Horus is a supporter of Open Source.',
+        href: 'https://github.com/Horus-Exchange/'
     },
     {
         name: 'Discord',
         description: 'Join the community on Discord.',
-        href: 'https://discord.gg/NVPXN4e'
+        href: '#'
     }
 ]
 

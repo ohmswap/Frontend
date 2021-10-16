@@ -72,11 +72,9 @@ ReactDOM.render(
                         <Updaters />
                         <ThemeProvider>
                             <ThemedGlobalStyle />
-                            <KashiProvider>
-                                <Router>
-                                    <App />
-                                </Router>
-                            </KashiProvider>
+                            <Router>
+                                <App />
+                            </Router>
                         </ThemeProvider>
                     </Provider>
                 </Blocklist>

@@ -133,7 +133,7 @@ export default function Pool() {
     return (
         <>
             <Helmet>
-                <title>Pool | Sushi</title>
+                <title>Pool | Horus</title>
             </Helmet>
             <PageWrapper>
                 <SwapPoolTabs active={'pool'} />

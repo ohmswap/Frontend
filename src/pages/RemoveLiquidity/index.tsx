@@ -487,7 +487,7 @@ export default function RemoveLiquidity({
     return (
         <>
             <Helmet>
-                <title>Remove Liquidity | Sushi</title>
+                <title>Remove Liquidity | Horus</title>
             </Helmet>
             <div className="bg-dark-900 w-full max-w-2xl rounded">
                 <AddRemoveTabs creating={false} adding={false} />
